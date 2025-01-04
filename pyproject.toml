@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "task-tracker"
+version = "0.1.0"
+description = "A short descripion of your project"
+authors = [
+    { name="Your Name", email="your.email@example.com" },
+]
+requires-python = ">=3.13"
+
+[project.scripts]
+your_script_name = "module:main_function"
+
+[project.urls]
+homepage = "https://github.com/yourusername/your_project_name"
