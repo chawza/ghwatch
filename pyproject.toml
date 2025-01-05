@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "task-tracker"
+name = "ghwatch"
 version = "0.1.0"
 description = "A short descripion of your project"
 authors = [

@@ -92,6 +92,7 @@ class HomeScreen(BaseScreen):
 
         if len(items) == 0:
             message.update('No issues found')
+            return
 
         list_view.clear()
         list_view.extend(items)
